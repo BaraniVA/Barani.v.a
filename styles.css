@@ -1,0 +1,252 @@
+h2{
+  background-color: #DAA520;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff; 
+}
+header{
+  background-color:#555;
+}
+nav a{
+  background-color:#555;
+  font-family: 'Open Sans', sans-serif;
+}
+nav li{
+  background-color:#555;
+}
+#about {
+  padding: 50px;
+  text-align: center;
+  background-color: #DAA520; /* autumn color */
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+#projects {
+  padding: 50px;
+  text-align: center;
+  background-color: #DAA520; /* autumn color */
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #333;
+  margin-bottom: 15px;
+}
+.project {
+  width: 49%;
+  margin: 15px;
+  text-align: center;
+}
+
+
+h3 {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #DAA520;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #DAA520;
+  color: #fff;
+  cursor: pointer;
+}
+#certifications {
+  background-color: #DAA520;
+  padding: 50px 0;
+}
+
+.certifications-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.certification {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.certification img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  transform: rotateY(0);
+  backface-visibility: hidden;
+}
+
+.certification:hover img {
+  transform: rotateY(180deg);
+}
+
+.certification-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+}
+
+.certification:hover .certification-details {
+  transform: rotateY(0);
+  background-color:#fff;
+  border-radius: 10px;
+}
+
+.certification-details h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.certification-details p {
+  font-size: 16px;
+  margin: 0 0 20px;
+  color: #000000;
+}
+
+.certification-details a {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #FFA500;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.certification-details a:hover {
+  background-color: #FFA500;
+}
+#contact {
+  padding: 50px;
+  text-align: center;
+  background-color: #DAA520; /* autumn color */
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+   margin-bottom: 20px;
+   font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 20px;
+  
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #DAA520;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-size: 18px;
+  border: none;
+}
+
+a:hover {
+  background-color: #DAA520;
+  color: #fff;
+  cursor: pointer;
+}
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #555;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+hr {
+      background: linear-gradient(to right, #FFA500,  #555); /* Set the background color to orange */
+      height: 4px; /* Set the height to 4 pixels */
+      width: 100%; /* Set the width to 50% of the page */
+      border: none; /* Remove the default border */
+      margin: 0 auto; /* Center the horizontal rule and add some margin */
+    }
